@@ -1,11 +1,11 @@
 body {
     background-color: #000000 ;
     font-family: Arial, sans-serif;
-    width: 600px;
-    margin: auto;
+    margin: 10px 500px;
     .container { 
     display: flex; 
     gap: 10px;
+    justify-content: space-between;
 }
 
     .div1, .div2, .div6 {
@@ -15,21 +15,22 @@ body {
         background-image: url("../imagens/fundopreto.png");
         border: 2px solid #ccc;
         color: white;
-        
-        
+    }
+
+    .perfil{
+        width: 400px;
     }
 
     .div1 {
-        width: 150px;
+        text-align: center;
     }
-
+/*
     .div2 {
         width: 300px;
-    }
+    }*/
 
     .div6 {
-        flex: 1;
-        text-align: center;
+        width: 400px;
     }
 
     .formacao, .complementares, .softskills {
@@ -39,6 +40,7 @@ body {
         background-image: url("../imagens/fundopreto.png");
         border: 2px solid #ccc;
         color: white;
+        width: 500px;
     }
 
     ol {
